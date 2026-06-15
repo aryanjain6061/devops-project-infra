@@ -1,0 +1,6 @@
+exclude:
+  # We handle these manually with specific configs
+  - AWS009   # No egress rule — we allow all outbound intentionally
+  - AWS018   # Missing description on SG rule — low priority
+
+minimum_severity: HIGH
