@@ -1,0 +1,12 @@
+aws_region           = "ap-south-1"
+project_name         = "devops-project"
+environment          = "prod"
+vpc_cidr             = "10.0.0.0/16"
+availability_zones   = ["ap-south-1a", "ap-south-1b"]
+github_org           = "aryanjain6061"
+ami_id               = "ami-0f58b397bc5c1f2e8"
+master_instance_type = "t3.medium"
+worker_instance_type = "t3.medium"
+worker_count         = 2
+ssh_public_key_path  = "~/.ssh/id_rsa.pub"
+allowed_ssh_cidr     = "180.151.116.12/32"
